@@ -30,7 +30,7 @@ const CONFIG = {
 }
 
 if (CONFIG.isPagesRelease) {
-  CONFIG.buildPath = './pages';
+  CONFIG.buildPath = './docs';
 }
 
 console.log("Rollup config. command line parameters:", JSON.stringify(argv, null, 2));

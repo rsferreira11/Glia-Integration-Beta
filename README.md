@@ -1,18 +1,6 @@
-# Rollup-TypeScript-Babel WebGL
+# Glia Integration Beta
 
-Focus in what matters! WebGL Boilerplate using Typescript transpiled by babel.
-
-It supports:
-- [Rollup](https://rollupjs.org/guide/en/) for module bundler.
-- Minified bundle on release mode.
-- Decidated testing server.
-- all images are bundled as url.
-- Custom index.html linking hashed javascript.
-- postcss.
-- shader code written in glsl are bundled as text, enabling syntax highlight and linter in the external file.
-- Sample code with running webgl program: [preview](https://rsferreira11.github.io/webgl-typescript-boilerplate/pages/).
-- npm script to publish to github pages.
-- [gl-matrix](http://glmatrix.net/) for easier matrices handling.
+https://rsferreira11.github.io/Glia-Integration-Beta/
 
 ## Build and start a server on port 3000
 
@@ -67,6 +55,3 @@ npm run serve -- --config-port=8000
 ```shell
 npm run release:pages
 ```
-
-PS: You need to enable github pages for you repo. Then you will have a url similar to:
-https://rsferreira11.github.io/webgl-typescript-boilerplate/pages/

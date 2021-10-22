@@ -8,6 +8,10 @@ import fragmentShaderCode from './shaders/example.frag';
 
 import { mat4 } from 'gl-matrix';
 
+if (typeof "".includes !== "function") {
+  console.log("Support to IE11 is disabled.");
+}
+
 imageImportTest();
 
 function loadTexture(gl: WebGLRenderingContext, url: string) {

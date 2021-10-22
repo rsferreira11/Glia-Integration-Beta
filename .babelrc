@@ -1,6 +1,13 @@
 {
   "presets": [
-    "@babel/env",
+    [ "@babel/preset-env", {
+      "forceAllTransforms": true,
+      "useBuiltIns": "usage",
+      "corejs": 3,
+      "targets": {
+        "ie": 11
+      }
+    } ],
     "@babel/typescript"
   ],
   "plugins": [
